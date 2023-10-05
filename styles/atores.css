@@ -1,0 +1,50 @@
+.paragrafo__ator__principal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.paragrafo__atores {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+
+}
+
+.descricao__texto {
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.container__botao2 {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--braco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+    width: 150px;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 720px) {
+
+    .descricao__texto {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .descricao__texto {
+        max-width: 90%;
+    }
+}
